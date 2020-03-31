@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!--meta tags used or i say required-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- link for josefin font -->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main-style.css" type="text/css">
+        <title>BASE APPAREL</title>
+        <!-- adding icon in title -->
+        <link rel="icon" href="images/favicon-32x32.png" type="image/png" style="height: 100px; width: 100px;">
+    </head>
+    <body>
+        <!-- creating a responsible and collapasble 2 colon 1 row interface -->
+         <div class="row">
+            <img src="images/logo.svg" class="image-top" title="logo"> 
+            <div class="column" id="img123">
+                 <img src="images/hero-desktop.jpg" id="hero-img" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="column" id="main123">
+             <container class="container-fluid main_container">
+                
+        
+                <h1>
+                     WE'RE<br><SPAN id="span1">COMING<br>SOON</SPAN>
+                </h1>
+                <p>
+                 Hello fellow shoppers! We are currently building our new<br>fashion store. Add your email below to stay up-to-date with<br>announcement
+                 and our lunch deals.
+                </p>
+                <form action="" method="post" class="email-wrapper" onsubmit="return checkEmail()" novalidate>
+                  <input type="email" name="email" id="email" class="email" placeholder="Email Address" required>
+                  <button id="submitBtn" class="submit-btn"> 
+                     <img src="images/icon-arrow.svg" alt="" aria-hidden="true" class="arrow-img">
+                  </button>
+                  <!-- declaring the on error message that will later be fetched by js -->
+                  <div id="errorMessage" class="hidden">Please provide a valid email</div>
+                </form>
+             </container>
+            </div>
+         </div>
+         <div class="footer">
+            <p class="attribution">
+                Challenge by Frontend Mentor | Coded by <a class="link" href="https://testdragon12.000webhostapp.com/">Aayush K. Mishra</a>.
+              </p>
+         </div>
+         <script src="noka.js"></script>
+    </body>
+</html>
